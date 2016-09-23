@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <title>{{ config.title }} • {{ config.description }}</title>
+
+    <!-- CSS -->
+    <link href="//fonts.googleapis.com/css?family=Nunito:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="assets/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="assets/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="assets/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header class="header">
+        <div class="header-wrapper">
+            <div class="header-content">
+                <h1 class="header-logo">
+                    {{ config.title }}
+                </h1>
+                <div class="header-featured">
+                    <h2 class="header-featured__title">{{ config.description }}</h2>
+                    <p class="header-featured__location">
+                        <span class="date">26/Novembro</span> <span class="bull">&bull;</span> <span class="location">Hotel Maria do Mar</span>
+                    </p>
+                    <div class="header-featured__divisor"></div>
+                    <a class="header-button-cta" href="#">
+                        Inscrição
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+</html>

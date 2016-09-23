@@ -1,0 +1,30 @@
+{
+  "name": "frontinfloripa2016",
+  "description": "Front in Floripa 2016 website",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Diogo Moretti",
+    "url": "diogo.pearljam@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frontinfloripa/2016.frontinfloripa.com.br.git"
+  },
+  "devDependencies": {
+    "del": "^2.2.0",
+    "graceful-fs": "^4.1.5",
+    "gulp": "*",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-connect": "*",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-plumber": "*",
+    "gulp-rename": "^1.2.2",
+    "gulp-stylus": "0.0.12",
+    "gulp-watch": "^4.3.5",
+    "js-yaml": "^3.5.2",
+    "nib": "*",
+    "run-sequence": "^1.1.5",
+    "stylus": "*"
+  }
+}
