@@ -30,10 +30,18 @@ gulp.task('connect', function() {
 */
 gulp.task('handlebars', function () {
     var config = yaml.safeLoad(fs.readFileSync('./src/data/config.yml', 'utf-8'));
+    var speakers = yaml.safeLoad(fs.readFileSync('./src/data/speakers.yml', 'utf-8'));
+    var tweets = yaml.safeLoad(fs.readFileSync('./src/data/tweets.yml', 'utf-8'));
+    var sponsors = yaml.safeLoad(fs.readFileSync('./src/data/sponsors.yml', 'utf-8'));
+    var support = yaml.safeLoad(fs.readFileSync('./src/data/support.yml', 'utf-8'));
     
     gulp.src('./src/handlebars/*.hbs')
         .pipe(hbs({
-            config: config
+            config: config,
+            speakers: speakers,
+            tweets: tweets,
+            sponsors: sponsors,
+            support: support
         }))
         .pipe(rename('index.html'))
         .pipe(gulp.dest('./dist'))

@@ -1,2 +1,9 @@
 title: "Front in Floripa 2016"
 description: "Maior evento front-end de santa catarina"
+
+tickets:
+  link: "https://www.eventick.com.br/frontinfloripa2016"
+
+c4p:
+  open: true
+  link: "https://goo.gl/forms/uqLhcbmGRqWQ1iCz2"
