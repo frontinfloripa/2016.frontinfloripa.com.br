@@ -1,12 +1,16 @@
 -
+  name: "Toptal"
+  website: "https://www.toptal.com"
+  logo: "toptal.png"
+-
   name: "Cheesecake Labs"
   website: "http://www.ckl.io"
   logo: "ckl.png"
 -
-  name: "GeekHunter"
-  website: "http://www.geekhunter.com.br"
-  logo: "geekhunter.png"
--
   name: "Resultados Digitais"
   website: "http://www.resultadosdigitais.com.br"
   logo: "rd.png"
+-
+  name: "GeekHunter"
+  website: "http://www.geekhunter.com.br"
+  logo: "geekhunter.png"
