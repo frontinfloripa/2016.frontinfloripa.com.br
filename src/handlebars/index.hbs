@@ -110,14 +110,17 @@
         <section class="section-speakers">
             <div class="section-wrapper">
                 <h2 class="section-title">
-                    Palestrantes
-                    <span class="section-subtitle">Os front-enders mais f* do Brasil</span>
+                    Palestrantes &amp; Talks
+                    <span class="section-subtitle">Os melhores temas dos melhores front-enders do Brasil</span>
                 </h2>
                 <div class="speakers-list">
                     {{#each speakers}}
                         <div class="speaker-item">
                             <img class="speaker-avatar" src="assets/img/speakers/{{avatar}}">
                             <h3 class="speaker-name">{{name}}</h3>
+                            {{#if talk}}
+                                <p class="speaker-talk">{{talk}}</p>
+                            {{/if}}
                             <div class="speaker-social">
                                 {{#if github}}
                                     <a class="speaker-social-link github" href="https://github.com/{{github}}" target="_blank"></a>
