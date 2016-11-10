@@ -7,7 +7,7 @@ body
   font-size: 62.5%
   background: #333
   font-family: $font-title
-  
+
 .main
   position: relative
   width: calc(100% - 6em)
@@ -16,7 +16,7 @@ body
   overflow: hidden
   border-radius: .3em
   box-shadow: 0 0 10px #222
-  
+
   @media $phone
     width: calc(100% - 3em)
     margin: 1.5em auto
@@ -43,7 +43,7 @@ body
     top: -(@width / 2)
     left: -(@width / 2)
     z-index: -1
-    
+
   &:after
     content: '#4'
     font-size: 2.8em
@@ -63,7 +63,7 @@ body
   max-width: 1000px
   padding: 0 3em
   margin: 0 auto
-  
+
 .header-content
   margin: auto
 
@@ -78,7 +78,7 @@ body
   top: 50%
   right: 0
   margin-top: -(@height / 2)
-  
+
   @media $phone
     position: static
     margin: 0 auto
@@ -87,18 +87,18 @@ body
 
 .header-featured
   width: 60%
-  
+
   @media $phone
     width: 100%
     text-align: center
-    
+
 .header-featured__divisor
   width: 80px
   height: 6px
   margin: 4em .3em
   border-radius: 20em
   background: #fff
-  
+
   @media $phone
     margin: 3em auto
 
@@ -108,25 +108,25 @@ body
   font-weight: normal
   color: #fff
   margin: 0
-  
+
   @media $phone
     display: none
-  
+
 .header-featured__location
   margin: .5em 0 0 0
   font-size: 2em
   color: $color-secondary
-  
+
   .bull
     color: #fff
-    
+
   @media $phone
     .date, .location
       display: block
-      
+
     .bull
       display: none
-  
+
 .header-button-cta
   @extends $button
   color: $color-third
@@ -136,10 +136,10 @@ body
   margin-top: 0
   font-weight: 700
   transition: background .5s ease
-  
+
   &:hover
     background: #fff
-    
+
 .header-button-c4p
   @extends $button
   color: #fff
@@ -150,10 +150,10 @@ body
   margin-left: .7em
   font-weight: 700
   transition: border .5s ease
-  
+
   &:hover
     border-color: #fff
-    
+
   @media $phone
     margin-top: .3em
     margin-left: 0
@@ -166,13 +166,13 @@ body
 .section-features
   background: #fcfcfc
   padding: 5em 0
-  
+
   @media $phone
     padding: 3em 1em
-  
+
 .section-features-main
   padding: 10em 0
-  
+
   @media $phone
     padding: 5em 0
 
@@ -182,27 +182,27 @@ body
   padding-top: 1.5em
   padding-right: 15em
   margin-bottom: 10em
-  
+
   @media $phone
     padding: 0 1em
     text-align: center
-  
+
   &.right
     text-align: right
     padding-right: 30em
     padding-left: 15em
-    
+
     @media $phone
       padding: 0 1em
       text-align: center
-    
+
     .section-features-item__icon
       left: auto
       right: 1.5em
-      
+
       @media $phone
         right: 0
-      
+
       &:before
         left: auto
         right: -1em
@@ -214,14 +214,14 @@ body
   width: 18em
   height: @width
   box-shadow: 2em 2em 100px 0 #f5f5f5
-  
+
   @media $phone
     position: relative
     height: 10em
     margin: 0 auto
     left: 0
     box-shadow: none
-  
+
   &:after
     content: ''
     position: absolute
@@ -229,37 +229,36 @@ body
     left: 0
     right: 0
     bottom: 0
-    background-color: #fff
     background-repeat: no-repeat
     background-size: 40%
     background-position: center center
     border-radius: 1em
-    
+
     @media $phone
       background-color: transparent
-  
+
   &:before
     content: ''
     position: absolute
     display: block
-    width: 18em
+    width: 20em
     height: @width
     background: $color-secondary
     border-radius: 50%
     left: -1em
     bottom: -1em
-    
+
     @media $phone
       display: none
 
   &.home
     &:after
       background-image: url('../img/icon-home.png')
-      
+
   &.mic
     &:after
       background-image: url('../img/icon-mic.png')
-      
+
   &.comment
     &:after
       background-image: url('../img/icon-comment.png')
@@ -271,7 +270,7 @@ body
     font-weight: 700
     margin: 0 0 .6em 0
     padding: 0
-    
+
   p
     color: #ccc
     font-weight: 400
@@ -289,7 +288,7 @@ body
   padding: 0
   height: 250px
   background: url('../img/bg-header.jpg') no-repeat center bottom
-  
+
   &:before
     content: ''
     background-color: $color-primary
@@ -300,17 +299,17 @@ body
     right: 0
     opacity: .8
     z-index: 1
-  
+
 .twitter-list
   display: block
   margin: auto
   padding: 0
   list-style: none
   z-index: 2
-  
+
   @media $phone
     padding: 2em
-  
+
 .twitter-item
   text-align: center
   max-width: 700px
@@ -319,33 +318,33 @@ body
   opacity: 0
   height: 0
   overflow: hidden
-  
+
   &.active
     height: auto
     opacity: 1
     transition: opacity 1s ease
-  
+
 .twitter-item__tweet
   margin-top: 0
   font-size: 2.4em
   color: #f5f5f5
-  
+
   @media $phone
     font-size: 1.8em
-  
+
 .twitter-item__metadata
   display: inline-block
   padding: .4em 1.5em .4em .6em
   border-radius: 20em
   transition: background ease .6s
   text-decoration: none
-  
+
 .twitter-item__avatar
   display: inline-block
   vertical-align: middle
   max-width: 4em
   border-radius: 50%
-  
+
 .twitter-item__username
   display: inline-block
   font-size: 1.8em
@@ -365,10 +364,10 @@ body
   background: #f5f5f5 + 20%
   box-shadow: 0 1em 20px rgba(#000, .003) inset
   border-top: 1px solid #f5f5f5
-  
+
   @media $phone
     padding: 2em
-  
+
   &:after
     content: ''
     width: 40em
@@ -393,7 +392,7 @@ body
   box-shadow: 0 0 1em #f5f5f5 + 20%
   border-radius: .4em
   text-align: center
-  
+
   @media $phone
     width: 48%
     height: auto
@@ -402,12 +401,12 @@ body
 .speaker-avatar
   max-width: 100%
   border-radius: .3em
-  
+
 .speaker-name
   color: #666
   font-size: 2em
   margin: .5em 0 0 0
-  
+
 .speaker-talk
   color: $color-primary
   font-size: 1.4em
@@ -417,7 +416,7 @@ body
 .speaker-social
   text-align: center
   padding-top: .5em
-  
+
 .speaker-social-link
   display: inline-block
   width: 3em
@@ -429,13 +428,13 @@ body
   background-repeat: no-repeat
   opacity: .4
   transition: opacity .3s ease
-  
+
   &:hover
     opacity: 1
-  
+
   &.twitter
     background-image: url('../img/twitter-blue.png')
-    
+
   &.github
     background-image: url('../img/github-black.png')
 
@@ -447,15 +446,15 @@ body
   position: relative
   padding: 7em 0
   background: url('../img/bg-tickets.jpg')
-  background-position: 0 0 
+  background-position: 0 0
   background-repeat: no-repeat
   background-size: cover
   height: 55em
-  
+
   @media $phone
     height: 40em
     background-position: center center
-  
+
   &:before
     content: ''
     background: #000
@@ -496,10 +495,10 @@ body
   width: 3em
   height: 22px
   position: relative
-  
+
   @media $phone
     display: none
-  
+
   &:before
     content: ''
     display: block
@@ -510,7 +509,7 @@ body
     height: 10px
     border-radius: 10em
     background: #fff
-  
+
 .tickets-lot
   font-size: 1.6em
   color: #888
@@ -524,7 +523,7 @@ body
   padding: .8em 2em
   margin-top: 1em
   transition: background .7s ease
-  
+
   &:hover
     background: @background - 10%
 
@@ -537,10 +536,10 @@ body
   position: relative
   padding: 6em 0 20em
   background: #fff
-  
+
   @media $phone
     padding: 3em 0 20em
-  
+
 .schedule-content
   padding: 3em 0
   font-size: 2em
@@ -558,18 +557,18 @@ body
   background-size: cover
   height: 50em
   transition: background 1s ease
-  
+
   @media $phone
     height: 30em
-  
+
   .section-wrapper
     height: 100%
     display: flex
-  
+
   &.multi
     background: url('../img/bg-location-2.jpg') center center no-repeat
     background-size: cover
-    
+
   &:before
     content: ''
     position: absolute
@@ -590,7 +589,7 @@ body
   font-size: 4em
   color: #fff
   margin: 0
-  
+
   @media $phone
     font-size: 2.8em
 
@@ -598,7 +597,7 @@ body
   font-size: 2em
   color: #eee
   margin: .2em 0 0 0
-  
+
   @media $phone
     font-size: 1.6em
 
@@ -609,7 +608,7 @@ body
   color: $color-third
   padding: .5em 1.4em
   margin-top: 1em
-  
+
   &:hover
     background: @background + 10%
 
@@ -621,31 +620,31 @@ body
   position: relative
   padding: 6em 0 0
   background: #fff
-  
+
   @media $phone
     padding: 3em 0 0
-  
+
 .sponsors-content
   padding: 3em 0 6em
   font-size: 2em
   color: #ddd
   text-align: center
-  
+
   @media $phone
     padding: 3em 0
-  
+
   .item
     max-width: 18em
     display: inline-block
     text-decoration: none
     margin: 1em
-    
+
     &.apoio
       max-width: 6em
-      
+
       @media $phone
         max-width: 3em
-    
+
     img
       max-width: 100%
 
@@ -659,19 +658,19 @@ body
 .footer-content
   padding: 3em 0
   text-align: center
-  
+
 .footer-mail
   font-size: 1.8em
   color: #555
   margin: 0 0 .8em 0
-  
+
 .footer-link
   font-size: 1.4em
   color: #777
   border-bottom: 1px solid #ccc
   text-decoration: none
   transition: all .7s ease
-  
+
   &:hover
     border-color: #000
     color: #000
