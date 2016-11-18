@@ -1,0 +1,60 @@
+-
+  time: 8h
+  type: other
+  title: "Credenciamento"
+-
+  time: 9h
+  type: talk
+  title: "Microinteractions - Details that matter"
+  speaker: "Luiz Estácio"
+-
+  time: 10h
+  type: other
+  title: "Coffee-Break"
+-
+  time: 10h30
+  type: talk
+  title: "Introdução a Elm - Programação Funcional no Front-end"
+  speaker: "Marcel dos Santos"
+-
+  time: 11h15
+  type: talk
+  title: "Deixe seu designer feliz (e seja feliz também)"
+  speaker: "Marta Preuss"
+-
+  time: 12h
+  type: other
+  title: "Almoço"
+-
+  time: 14h
+  type: talk
+  title: "ReactJS: From upside down to right side up!"
+  speaker: "Pedro Nauck"
+-
+  time: 14h50
+  type: talk
+  title: "Diga adeus aos pré/pós processadores CSS"
+  speaker: "Afonso Pacifer"
+-
+  time: 15h45
+  type: talk
+  title: "Ember.js: construindo apps melhores em menor tempo"
+  speaker: "Rômulo Machado"
+-
+  time: 16h30
+  type: other
+  title: "Coffee-Break"
+-
+  time: 17h
+  type: talk
+  title: "Functional Javascript[1]"
+  speaker: "Matheus Marsiglio"
+-
+  time: 17h45
+  type: talk
+  title: "CSS: Computer Style Science"
+  speaker: "Luiz Fernando"
+-
+  time: 18h30
+  type: other
+  title: "Encerramento, Sorteios e Happy-Hour"

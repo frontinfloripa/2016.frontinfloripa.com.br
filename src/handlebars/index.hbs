@@ -154,7 +154,24 @@
                     <span class="section-subtitle">Confira abaixo toda a programação do evento!</span>
                 </h2>
                 <div class="schedule-content">
-                    Aguarde...
+                    <ul class="schedule-list">
+                        {{#each schedule}}
+                            <li class="schedule-item">
+                                <span class="schedule-item-hour">{{time}}</span>
+                                <div class="schedule-item-box {{type}}">
+                                    <div class="schedule-item-box__content">
+                                        <h4 class="schedule-item-title">{{title}}</h4>
+                                        {{#if speaker}}
+                                            <p class="schedule-item-speaker">{{speaker}}</p>
+                                        {{/if}}
+                                    </div>
+                                </div>
+                            </li>
+                        {{/each}}
+                    </ul>
+                    <p class="schedule-alert">
+                        * os horários e slots poderão sofrer alterações sem aviso prévio.
+                    </p>
                 </div>
             </div>
         </section>

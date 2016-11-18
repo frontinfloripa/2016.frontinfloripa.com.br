@@ -34,6 +34,7 @@ gulp.task('handlebars', function () {
     var tweets = yaml.safeLoad(fs.readFileSync('./src/data/tweets.yml', 'utf-8'));
     var sponsors = yaml.safeLoad(fs.readFileSync('./src/data/sponsors.yml', 'utf-8'));
     var support = yaml.safeLoad(fs.readFileSync('./src/data/support.yml', 'utf-8'));
+    var schedule = yaml.safeLoad(fs.readFileSync('./src/data/schedule.yml', 'utf-8'));
     
     gulp.src('./src/handlebars/*.hbs')
         .pipe(hbs({
@@ -41,7 +42,8 @@ gulp.task('handlebars', function () {
             speakers: speakers,
             tweets: tweets,
             sponsors: sponsors,
-            support: support
+            support: support,
+            schedule: schedule
         }))
         .pipe(rename('index.html'))
         .pipe(gulp.dest('./dist'))
